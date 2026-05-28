@@ -32,13 +32,9 @@ namespace PART2_POE_
         
         private List<string> phishingTopics = new List<string>()
         {
-            "Phishing is a common online scam where attackers pretend to be trusted companies" +
-            " to trick people into revealing personal information. These messages often create " +
-            "urgency, claim there is a problem with your account, or offer fake rewards.",
-            "To stay safe, check the sender's email address carefully, avoid clicking suspicious links or " +
-            "downloading unknown attachments, and instead type the official website address directly" +
-            " into your browser to verify any claims.",
-            "Coming soon PHISHING"
+            "Phishing is a scam where attackers pretend to be trusted sources to steal information.",
+            "Phishing it uses fake messages or websites to trick users into revealing sensitive data",
+            "Phishing attackers use deception to make users believe they are legitimate."
         };
 
         private List<string> TwoFactorAuthenticationTopics = new List<string>()
