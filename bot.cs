@@ -14,8 +14,7 @@ namespace PART2_POE_
 {
     public class bot
     {
-
-        //List for Password
+        //Topic lists
         private List<string> passwordTopics = new List<string>()
         {
             "password a password is used to secure access to your accounts or devices.",
@@ -43,7 +42,7 @@ namespace PART2_POE_
            "2FA it requires a second verification step such as a code sent to your phone.",
            "2FA always enable 2fa on important accounts to reduce the risk of unauthorized access."
        };
-
+        
         private List<string> ransomwareTopics = new List<string>()
         {
             "Ransomware is a type of malware that locks or encrypts your files and demands money " +
@@ -58,15 +57,9 @@ namespace PART2_POE_
 
         private List<string> safeBrowsingTopics = new List<string>()
         {
-            "Safe browsing means being cautious about where you share your" +
-                    " information online. Always check that the website address is correct" +
-                    " before entering sensitive details and look for https in the URL, although " +
-                    "this alone does not guarantee the site is legitimate.",
-            " Avoid downloading files or " +
-                    "software from untrusted sources, keep your device and applications updated to fix " +
-                    "security weaknesses, and use antivirus software and firewall protection to reduce " +
-                    "the risk of malware and other cyber threats.",
-            "coming soon SB"
+            "Safe browsing avoid clicking on suspicious links or pop-ups while browsing the internet.",
+            "Safe browsing always check that a website uses https before entering personal information.",
+            "Safe browsing keep your browser and extensions updated to protect against known vulnerabilities."
         };
         
         private List<string> scamTopics = new List<string>()
