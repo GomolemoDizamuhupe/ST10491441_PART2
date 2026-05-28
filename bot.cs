@@ -94,19 +94,12 @@ namespace PART2_POE_
                     " authentication for added security.",
             "Coming soon SCAM"
         };
+        
         private List<string> privacyTopics = new List<string>()
         {
-            "Privacy is your right to control your personal information and decide who can access it. " +
-                    "It includes details like your name, location, messages, photos, browsing history, and online " +
-                    "activity. In daily life, privacy means simple things such as locking your phone, choosing who " +
-                    "can see your social media posts, and keeping your passwords private. Online, privacy becomes" +
-                    " more important because websites and apps often collect data about what you search, click, buy," +
-                    " or where you are located.",
-            "While some of this information is used to improve services, it can also" +
-                    " be used for advertising or become exposed in data breaches if not properly protected. Privacy " +
-                    "matters because it helps prevent identity theft, scams, and misuse of personal information, and " +
-                    "it allows you to maintain control over your digital reputation and personal space.",
-            "Coming soon PRIVACY"
+            "Privacy protect your privacy by limiting the personal information you share online.",
+            "Privacy review app permissions regularly and revoke access that is not necessary.",
+            "Privacy use strong privacy settings on your social media and online accounts."
         };
 
         //Tracks how many times the user has asked about each topic
