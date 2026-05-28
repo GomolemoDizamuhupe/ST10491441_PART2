@@ -23,18 +23,13 @@ namespace PART2_POE_
             "password avoid using personal details when creating one."
         };
 
-
         private List<string> malwareTopics = new List<string>()
         {
-            "Malware, short for malicious software, is any program designed to harm, disrupt, or" +
-                " secretly access a computer or device. It includes viruses, ransomware, spyware, and trojans," +
-                " which can steal personal information, damage files, or lock your data for money.",
-                "Malware often spreads through unsafe downloads, email attachments, fake websites, or infected USB drives." +
-                " Keeping your software updated and avoiding suspicious links are simple but effective ways" +
-                " to protect yourself.",
-                "Coming soon MW"
+            "Malware malware is malicious software designed to damage or gain unauthorized access to systems.",
+            "Malware keep your antivirus software updated to detect and remove malware.",
+            "Malware avoid downloading files or software from untrusted sources."
         };
-
+        
         private List<string> phishingTopics = new List<string>()
         {
             "Phishing is a common online scam where attackers pretend to be trusted companies" +
