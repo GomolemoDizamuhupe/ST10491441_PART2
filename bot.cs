@@ -23,6 +23,7 @@ namespace PART2_POE_
             "password avoid using personal details when creating one."
         };
 
+
         private List<string> malwareTopics = new List<string>()
         {
             "Malware, short for malicious software, is any program designed to harm, disrupt, or" +
@@ -80,19 +81,12 @@ namespace PART2_POE_
                     "the risk of malware and other cyber threats.",
             "coming soon SB"
         };
+        
         private List<string> scamTopics = new List<string>()
         {
-            "A scam is a form of cybercrime where attackers use technology to trick people into giving away" +
-                    " money, passwords, banking details, or other sensitive information.Instead of directly hacking " +
-                    "systems, scammers often rely on social engineering, which means manipulating human trust and emotions." +
-                    " Examples include phishing emails that look like they come from legitimate companies, fake login " +
-                    "websites created to steal usernames and passwords, and pop - up messages claiming your computer is " +
-                    "infected and asking you to contact fake technical support.",
-            "These scams can result in identity theft, " +
-                    "financial loss, and unauthorized access to accounts or networks.Protecting yourself involves verifying" +
-                    " the source of messages, avoiding suspicious links, using strong passwords, and enabling two-factor" +
-                    " authentication for added security.",
-            "Coming soon SCAM"
+            "Scam scammers often impersonate trusted organizations to steal your personal information.",
+            "Scam never share sensitive details like passwords or bank information with unverified contacts.",
+            "Scam if something seems too good to be true online it is likely a scam."
         };
         
         private List<string> privacyTopics = new List<string>()
