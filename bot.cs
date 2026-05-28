@@ -15,16 +15,12 @@ namespace PART2_POE_
     public class bot
     {
 
+        //List for Password
         private List<string> passwordTopics = new List<string>()
         {
-            "Protecting your passwords, always use long, unique passwords that are at least 12 to " +
-                " 16 characters and avoid personal details like names, birthdays, or simple patterns. Never" +
-                " reuse the same password across different accounts because if one account is compromised, " +
-                "others can easily be accessed.",
-                "Using a password manager helps generate and store strong " +
-                "passwords securely, and enabling Two-Factor Authentication adds an extra layer of protection " +
-                "by requiring a second form of verification beyond just your password.",
-                "Coming soon PW"
+            "password a password is used to secure access to your accounts or devices.",
+            "password it should be strong, long and not easy to guess.",
+            "password avoid using personal details when creating one."
         };
 
         private List<string> malwareTopics = new List<string>()
