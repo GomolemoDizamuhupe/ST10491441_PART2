@@ -45,14 +45,9 @@ namespace PART2_POE_
         
         private List<string> ransomwareTopics = new List<string>()
         {
-            "Ransomware is a type of malware that locks or encrypts your files and demands money " +
-                    "to restore access. It usually spreads through phishing emails, malicious downloads, or outdated" +
-                    " software with security weaknesses.",
-            "Once infected, you may see a message asking for payment, " +
-                    "often in cryptocurrency. Paying does not guarantee your files will be recovered, so the best " +
-                    "protection is keeping your software updated, avoiding suspicious links, and regularly backing " +
-                    "up important data.",
-            "Coming soon RW"
+            "Ransomware ransomware is a type of malware that locks your files and demands payment to restore access.",
+            "Ransomware never pay the ransom as it does not guarantee your files will be recovered.",
+            "Ransomware regularly back up your data to minimize the impact of a ransomware attack."
         };
 
         private List<string> safeBrowsingTopics = new List<string>()
