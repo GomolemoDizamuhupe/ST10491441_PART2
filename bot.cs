@@ -36,17 +36,13 @@ namespace PART2_POE_
             "Phishing it uses fake messages or websites to trick users into revealing sensitive data",
             "Phishing attackers use deception to make users believe they are legitimate."
         };
-
-        private List<string> TwoFactorAuthenticationTopics = new List<string>()
-        {
-"2FA (Two-Factor Authentication) is a security feature that requires two different types" +
-                    " of verification before you can access an account. Instead of just entering a password, you also" +
-                    " need a second step, like a one-time code sent to your phone, an authenticator app code, or a" +
-                    " fingerprint. ",
-            "This makes it much harder for someone to access your account even if they steal " +
-                    "your password, because they would still need the second factor to log in.",
-            "Coming soon 2FA"
-        };
+        
+       private List<string> TwoFactorAuthenticationTopics = new List<string>()
+       {
+           "2FA or two-factor authentication adds an extra layer of security beyond just a password.",
+           "2FA it requires a second verification step such as a code sent to your phone.",
+           "2FA always enable 2fa on important accounts to reduce the risk of unauthorized access."
+       };
 
         private List<string> ransomwareTopics = new List<string>()
         {
